@@ -49,7 +49,6 @@ ML involves training algorithms to learn from data and improve their performance
 - Large language models (LLMs) like GPT
 - Frameworks: PyTorch and TensorFlow
 
-![Illustration of AI and ML Concepts](ai_ml_concepts.png)
 
 ### **Practical Applications**
 - Transition from face-to-face to online education using AI tools.
