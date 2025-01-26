@@ -65,8 +65,6 @@ ML involves training algorithms to learn from data and improve their performance
 ### Home Tasks
 - Hands-on exercises with coding and AI problem-solving.
 
-![Course Timeline Illustration](course_timeline.png)
-
 ---
 
 ## Final Thoughts
