@@ -4,17 +4,6 @@
 Welcome to the journey of mastering Generative AI! Here’s a detailed recap of our first lecture, packed with insights into artificial intelligence, machine learning, and the foundational skills needed to succeed in this domain.
 
 ---
-## Images from the Lecture
-
-### LinkedIn Profile Demonstration
-![Lecture Screenshot 1](./linkedin.jpeg)
-
-### Course Overview and Schedule
-![Lecture Screenshot 2](./tasks.jpeg)
-
-### Github Repositiry
-![Lecture Screenshot 2](./masters-ai.jpeg)
-
 
 
 ## Lecture Highlights
@@ -74,7 +63,18 @@ This lecture laid the groundwork for understanding the vast potential of AI and 
 Stay tuned for the next lecture on **LLMs and Advanced Prompting Techniques**!
 
 ---
+## Images from the Lecture
 
+### LinkedIn Profile Demonstration
+![Lecture Screenshot 1](./linkedin.jpeg)
+
+### Course Overview and Schedule
+![Lecture Screenshot 2](./tasks.jpeg)
+
+### Github Repositiry
+![Lecture Screenshot 2](./masters-ai.jpeg)
+
+---
 **Resources:**
 - PyTorch tutorials for machine learning enthusiasts.
 - TensorFlow Playground for visualizing neural networks.
