@@ -4,6 +4,12 @@ Welcome to the **Image Generator Tool**, a Python-based script designed to gener
 
 ---
 
+### Image Generation Prompt:
+*Prompt*: Chess desk with neon lights and glass figures.
+
+![Chess Desk with Neon Lights and Glass Figures](./chess_desk_neon_lights_glass_figures.png)
+
+
 ## Features
 - Generate images based on your textual prompts.
 - Supports multiple artistic styles, including:
