@@ -11,13 +11,28 @@ Welcome to the **Image Generator Tool**, a Python-based script designed to gener
     
   ![1 abstract art.png](./1.png)
   - Realism
+
+    ![1 abstract art.png](./2.png)
   - Cartoon Style
+    
+    ![1 abstract art.png](./3.png)
   - Impressionism
+
+       ![1 abstract art.png](./4.png)
   - Surrealism
+
+       ![1 abstract art.png](./5.png)
   - Cyberpunk
+
+      ![1 abstract art.png](./6.png)
   - Steampunk
+    
+      ![1 abstract art.png](./7.png)
   - Pixel Art
+
+      ![1 abstract art.png](./8.png)
   - Watercolor Painting
+  
 - Saves image URLs locally in the `generated_images` folder.
 
 ---
