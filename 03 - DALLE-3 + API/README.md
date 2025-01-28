@@ -7,8 +7,6 @@ Welcome to the **Image Generator Tool**, a Python-based script designed to gener
 ### Image Generation Prompt:
 *Prompt*: Chess desk with neon lights and glass figures.
 
-![Chess Desk with Neon Lights and Glass Figures](./chess_desk_neon_lights_glass_figures.png)
-
 
 ## Features
 - Generate images based on your textual prompts.
@@ -37,7 +35,7 @@ Welcome to the **Image Generator Tool**, a Python-based script designed to gener
   - Pixel Art
 
       ![1 abstract art.png](./8.png)
-  - Watercolor Painting
+  - Watercolor Painting (Error)
   
 - Saves image URLs locally in the `generated_images` folder.
 
