@@ -20,10 +20,7 @@ This project adds a graphical user interface (UI) to the Employee Query Agent, a
 - **Tkinter**: Used for the graphical user interface.
 - **SQLite**: Stores employee data.
 
-## Setup and Usage
+## The result
 
-1. **Clone the Repository**:
-   Clone the project repository to your local machine.
-   ```bash
-   git clone <repository-url>
+
 - ![Employee Query Agent Screenshot](screenshot.png)
