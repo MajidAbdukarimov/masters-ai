@@ -8,6 +8,7 @@ Welcome to the **Image Generator Tool**, a Python-based script designed to gener
 - Generate images based on your textual prompts.
 - Supports multiple artistic styles, including:
   - Abstract Art
+    
   ![1 abstract art.png](./1.png)
   - Realism
   - Cartoon Style
