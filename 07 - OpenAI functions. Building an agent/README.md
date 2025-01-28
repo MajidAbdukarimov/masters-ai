@@ -26,3 +26,4 @@ This project adds a graphical user interface (UI) to the Employee Query Agent, a
    Clone the project repository to your local machine.
    ```bash
    git clone <repository-url>
+- ![Employee Query Agent Screenshot](screenshot.png)
