@@ -51,6 +51,7 @@ The **Response Area** is where the results of the query will be displayed.
 This section serves as the main output area for the application and presents the query results in a clear and organized way.
 
 ![Response Area](https://via.placeholder.com/800x400.png)
+![Database](3.png)
 
 ---
 
@@ -65,9 +66,26 @@ The **Logging** feature is built into the application to track all user queries 
 
 The log data is stored in the `employees.db` database under the **logs** table and can be queried for audits or analysis.
 
-![Logging](https://via.placeholder.com/800x400.png)
+![Logging](2.png)
 
 ---
+
+## **5. Email Notification to Third-Party Application**
+
+### **How It Works:**
+- Whenever a user interacts with the application, an email is automatically sent to the HR department with information about the query made.
+- The email contains the following details:
+  - The **user's name or ID**.
+  - The **date and time** of the query.
+  - The **query itself** (text input entered by the user).
+  - The **result** of the query (e.g., list of employees, salary data).
+- This functionality helps the HR department keep track of who is querying sensitive data, ensuring better monitoring and control.
+
+This feature ensures that HR personnel are informed whenever an employee or user queries the database, providing additional oversight.
+
+![Email Notification](4.png)
+
+--- 
 
 ## **Security Countermeasures**
 
