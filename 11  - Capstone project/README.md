@@ -15,7 +15,7 @@ The application has an intuitive and simple user interface that allows users to 
 
 The panel enables an interactive way of querying the database without needing to write SQL queries manually. It helps streamline the process and makes the app more user-friendly.
 
-![Filter Panel](/1.png)
+![Filter Panel](../1.png)
 
 ---
 
