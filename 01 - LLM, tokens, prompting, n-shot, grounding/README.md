@@ -54,7 +54,6 @@ To enhance learning, Vitaliy suggested various platforms and technologies:
 ---
 
 ## Real-World Implementations
-![ethic](ethic.jpg)
 
 Vitaliy also emphasized:
 
@@ -65,6 +64,8 @@ Vitaliy also emphasized:
 ---
 
 ## Ethical Considerations and Data Security
+
+![ethic](ethic.jpg)
 
 The discussion also covered AI ethics, particularly:
 
