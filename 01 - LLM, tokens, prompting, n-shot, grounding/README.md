@@ -12,7 +12,7 @@ Vitaliy started by sharing his extensive experience, which spans 13 years in IT,
 ---
 
 ## Fundamental Concepts: AI vs. Machine Learning
-
+![Vitaliy](mlvsai.jpg)
 During the session, we explored key terminologies:
 
 - **Artificial Intelligence (AI):** Encompasses a broad range of technologies designed to emulate human cognition, from virtual assistants to decision-making systems.
