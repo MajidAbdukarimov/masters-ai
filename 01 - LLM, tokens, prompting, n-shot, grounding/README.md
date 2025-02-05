@@ -54,9 +54,9 @@ To enhance learning, Vitaliy suggested various platforms and technologies:
 ---
 
 ## Real-World Implementations
-
-Vitaliy also emphasized:
 ![ethic](ethic.jpg)
+Vitaliy also emphasized:
+
 - **Cutting-Edge Models:** Top-tier AI architectures that establish new performance benchmarks.
 - **Data Curation:** Properly structured and preprocessed datasets are crucial for model efficiency.
 - **Practical Constraints:** While generative AI offers immense potential, its real-world deployment often necessitates trade-offs between precision and resource consumption.
