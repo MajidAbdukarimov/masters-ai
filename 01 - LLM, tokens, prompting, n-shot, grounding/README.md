@@ -55,6 +55,7 @@ To enhance learning, Vitaliy suggested various platforms and technologies:
 
 ## Real-World Implementations
 ![ethic](ethic.jpg)
+
 Vitaliy also emphasized:
 
 - **Cutting-Edge Models:** Top-tier AI architectures that establish new performance benchmarks.
