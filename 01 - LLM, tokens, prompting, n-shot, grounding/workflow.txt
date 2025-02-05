@@ -1,0 +1,5 @@
+I am currently enrolled in a Master’s program specializing in Generative AI. As part of our coursework, the tutor assigned us a blog post task based on the transcript from our first lecture. The provided file, "lesson-1-transcript.txt," contains a detailed record of the discussion.
+
+Key Points to Consider:
+The transcript is structured as a dialogue, with interactions between the tutor and students.
+The tutor, identified as Speaker 8, is the main presenter of the lecture.
