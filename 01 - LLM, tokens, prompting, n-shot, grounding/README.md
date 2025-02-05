@@ -12,7 +12,7 @@ Vitaliy started by sharing his extensive experience, which spans 13 years in IT,
 ---
 
 ## Fundamental Concepts: AI vs. Machine Learning
-![Vitaliy](mlvsai.jpg)
+![vs](mlvsai.jpg)
 During the session, we explored key terminologies:
 
 - **Artificial Intelligence (AI):** Encompasses a broad range of technologies designed to emulate human cognition, from virtual assistants to decision-making systems.
@@ -41,7 +41,7 @@ This program integrates theoretical exploration with hands-on experimentation. S
 ---
 
 ## Recommended Resources and Tools
-
+![frameworks](frameworks.jpg)
 To enhance learning, Vitaliy suggested various platforms and technologies:
 
 - **Version Control:** GitHub is recommended for tracking assignments and collaborative work.
@@ -56,7 +56,7 @@ To enhance learning, Vitaliy suggested various platforms and technologies:
 ## Real-World Implementations
 
 Vitaliy also emphasized:
-
+![etchic](etchic.jpg)
 - **Cutting-Edge Models:** Top-tier AI architectures that establish new performance benchmarks.
 - **Data Curation:** Properly structured and preprocessed datasets are crucial for model efficiency.
 - **Practical Constraints:** While generative AI offers immense potential, its real-world deployment often necessitates trade-offs between precision and resource consumption.
