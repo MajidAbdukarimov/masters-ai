@@ -5,7 +5,7 @@ As digital transformation accelerates, generative AI continues to intrigue stude
 ---
 
 ## Meet the Instructor
-![Vitaliy](teacher.jpg)
+![Vitaliy](teacher.png)
 
 Vitaliy started by sharing his extensive experience, which spans 13 years in IT, software testing, and academia. Beginning as an integration test specialist, he later progressed to a leadership role in education at EPAM Systems, overseeing training initiatives across Western and Central Asia. Currently, he operates as an AI engineer, working on multi-agent orchestration frameworks that optimize software development pipelines, underscoring the real-world utility of generative AI.
 
