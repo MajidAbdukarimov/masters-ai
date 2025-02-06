@@ -25,7 +25,7 @@ This Python project enables precise audio transcription by extracting a specific
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/audio-transcription-project.git
+git clone [https://github.com/yourusername/audio-transcription-project.git](https://github.com/MajidAbdukarimov/masters-ai/tree/main/04%20-%20Whisper%20API%20%2B%20local%20installation)
 cd audio-transcription-project
 ```
 
