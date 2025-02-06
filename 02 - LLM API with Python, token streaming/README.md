@@ -1,70 +1,87 @@
-# Analyzing a Transcript: Uncovering Hidden Insights
+# Blog Post Generator using OpenAI GPT-4
 
-Transcripts play a crucial role in various fields, from research and education to business and entertainment. They provide a written record of spoken words, making it easier to reference, analyze, and extract valuable information. In this blog post, we will explore the process of analyzing a transcript, breaking it down into actionable steps.
+This project demonstrates how to use OpenAI's GPT-4 API to generate an HTML blog post from a transcript file. The code reads the transcript, breaks it into smaller chunks, and sends them to the GPT-4 model to summarize and format them into an HTML blog post.
 
----
+## Features
 
-## Step 1: Transcribing the Content
+- **Chunking Large Files:** Handles large transcripts by splitting them into manageable chunks, avoiding token limits.
+- **HTML Output:** Generates a structured HTML document summarizing the content of the transcript.
+- **Error Handling:** Includes error handling for missing files or API issues.
 
-The first step is to convert spoken words into written text. This can be done in two ways:
-- **Manual Transcription**: Listening to the audio and typing the content.
-- **Automated Tools**: Using AI-powered transcription software for speed and accuracy.
+## Requirements
 
-> **Key Tip**: Double-check the transcription for accuracy, as errors can lead to misinterpretation.
+- Python 3.7+
+- OpenAI Python package
+- A valid OpenAI API key
 
----
+## Installation
 
-## Step 2: Identifying Key Points
+1. **Clone this repository:**
+    ```bash
+    git clone https://github.com/yourusername/openai-blog-post-generator.git
+    cd openai-blog-post-generator
+    ```
 
-Once the transcript is ready, the next step is to extract the most important ideas:
-1. **Highlight Main Themes**: Look for recurring topics or critical discussions.
-2. **Mark Key Quotes**: Identify impactful statements for reference.
-3. **Group Related Ideas**: Organize points into categories for easier analysis.
+2. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-> Example: If the transcript is from a lecture, focus on core concepts and examples provided by the speaker.
+3. **Set your OpenAI API key:**
+    - You can set the API key by adding it directly in the script:
+      ```python
+      openai.api_key = "your-api-key-here"
+      ```
+    - Or set the `OPENAI_API_KEY` environment variable:
+      ```bash
+      export OPENAI_API_KEY="your-api-key-here"  # Linux or macOS
+      set OPENAI_API_KEY="your-api-key-here"  # Windows
+      ```
 
----
+## Usage
 
-## Step 3: Conducting Content Analysis
+1. **Prepare your transcript file**: Ensure the transcript is saved as `transcript.txt` in the project directory. If your file has a different name, adjust the `file_path` in the script.
 
-Content analysis involves systematically categorizing and coding the transcript:
-- **Thematic Analysis**: Group content by recurring themes or ideas.
-- **Sentiment Analysis**: Analyze the tone or emotion behind the words.
-- **Frequency Analysis**: Count how often certain words or phrases appear.
+2. **Run the script**:
+    ```bash
+    python main.py
+    ```
 
-Using these methods, you can uncover hidden patterns and insights within the transcript.
+3. **Check the output**: Once the script finishes, an HTML file named `lecture_summary.html` will be generated in the project directory containing the summary of the transcript.
 
----
+## Code Explanation
 
-## Step 4: Extracting Insights
+### 1. **Reading the Transcript**
 
-This is where the raw data turns into actionable information:
-- **Summarize Key Points**: Create a concise overview of the transcript's main ideas.
-- **Highlight Insights**: Point out surprising findings or important trends.
-- **Visualize Data**: Use tools like charts or graphs to represent patterns effectively.
+The script reads the content of the transcript file (`transcript.txt`). If the file is not found, it will output an error.
 
-> **Example**: In a business setting, use insights from meeting transcripts to guide decision-making.
+### 2. **Chunking the Transcript**
 
----
+If the transcript is too large (more than the token limit), the script breaks it down into smaller chunks. The chunk size is defined by the `chunk_size` variable.
 
-## Step 5: Presenting Findings
+### 3. **Generating the HTML Blog Post**
 
-The final step is sharing your analysis in a clear, engaging way:
-- **Use Visual Aids**: Include graphs, tables, or infographics where necessary.
-- **Write for Your Audience**: Tailor the tone and complexity to suit the readers.
-- **Provide Context**: Ensure readers understand the background of the transcript.
+The code uses OpenAI's GPT-4 model via the `openai.ChatCompletion.create` API to generate a structured HTML blog post for each chunk. The prompt instructs GPT-4 to summarize the transcript into an HTML blog format.
 
----
+### 4. **Saving the HTML Output**
 
-## Why Analyze Transcripts?
+The generated HTML content from each chunk is concatenated, and the complete HTML blog post is saved in `lecture_summary.html`.
 
-Analyzing transcripts is a powerful way to:
-- Preserve knowledge from lectures, meetings, or interviews.
-- Uncover actionable insights for research or decision-making.
-- Create a permanent record for future reference.
+## Error Handling
 
-By following the steps outlined above, anyone can transform a raw transcript into a valuable source of information.
+The script includes basic error handling for:
+- Missing transcript file (`FileNotFoundError`).
+- OpenAI API errors (`openai.OpenAIError`).
 
----
+## Customization
 
-Stay tuned for more insights on how to leverage transcripts effectively in your work and research!
+- **Prompt Customization:** Modify the `prompt` variable to change how the blog post is generated.
+- **Chunk Size:** Adjust the `chunk_size` if the input transcript is very large.
+
+## Limitations
+
+- **Token Limits:** The code handles large transcripts by chunking them. However, if the token limit is exceeded per chunk (due to output length), further adjustments may be necessary.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
