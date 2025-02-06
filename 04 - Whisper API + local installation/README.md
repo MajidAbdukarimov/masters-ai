@@ -1,27 +1,24 @@
-# Audio Transcription Project
+Audio Transcription Project
+This project uses Python to transcribe a specific segment of an audio file using the pydub library for audio processing and the whisper model for transcription. The goal of the project is to extract a portion of an audio file and convert it into text for further analysis or processing.
 
-This project uses Python to transcribe a specific segment of an audio file using the `pydub` library for audio processing and the `whisper` model for transcription. The goal of the project is to extract a portion of an audio file and convert it into text for further analysis or processing.
-
-## Project Overview
-
+Project Overview
 The project performs the following tasks:
-1. **Audio File Processing**: The audio file is loaded, and a specific segment is extracted based on time range.
-2. **Whisper Model Integration**: The extracted audio segment is transcribed using the Whisper model by OpenAI.
-3. **Transcription Output**: The transcribed text is saved to a `.txt` file.
 
-## Requirements
-
+Audio File Processing: The audio file is loaded, and a specific segment is extracted based on time range.
+Whisper Model Integration: The extracted audio segment is transcribed using the Whisper model by OpenAI.
+Transcription Output: The transcribed text is saved to a .txt file.
+Requirements
 Before running the project, ensure you have the following dependencies installed:
 
-- Python 3.6 or higher
-- `pydub` library for audio manipulation
-- `whisper` library for transcription
-
-### Install Dependencies
-
+Python 3.6 or higher
+pydub library for audio manipulation
+whisper library for transcription
+Install Dependencies
 To install the required dependencies, use the following command:
 
-```bash
+bash
+Копировать
+Редактировать
 pip install -r requirements.txt
 Alternatively, you can install the dependencies individually using:
 
@@ -31,9 +28,9 @@ bash
 pip install pydub whisper
 Note: The pydub library requires ffmpeg or libav to be installed for audio processing. Follow the installation instructions for your system:
 
-Install FFmpeg
+Install FFmpeg (for Windows, macOS, or Linux)
 Project Structure
-plaintext
+bash
 Копировать
 Редактировать
 .
@@ -83,7 +80,7 @@ Save the transcribed text in transcription_result.txt.
 Example Output
 The output will be saved in a text file (transcription_result.txt). The content might look something like this:
 
-text
+vbnet
 Копировать
 Редактировать
 API. And this is very, let me show the slides. So here, here are the slides for today. So what is the Whisper? And why are we discussing that? So mostly when people discuss the generative AI or AI in general, so they focused on like LLMs, identical pilots, functions, and stuff like that.
@@ -99,6 +96,3 @@ Ensure that your Python environment has the required dependencies.
 License
 This project is open-source and available under the MIT License. See the LICENSE file for more information.
 
-go
-Копировать
-Редактировать
