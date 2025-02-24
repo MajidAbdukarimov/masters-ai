@@ -19,7 +19,7 @@ Before you start, ensure you have the following:
 Clone the project repository from GitHub:
 
 ```sh
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/MajidAbdukarimov/masters-ai/tree/main/11
 cd your-project
 ```
 
