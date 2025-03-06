@@ -1,94 +1,159 @@
-# Installation Instructions
+Database Query Assistant
 
-Embark on your journey into our project with ease. Follow the steps below to set up your environment and begin exploring the world of generative AI in action.
+This project implements a Database Query Assistant using OpenAI's GPT model and a SQLite database. The assistant helps users query a product database and generates responses based on the data. It supports sending queries, receiving responses, and visualizing data trends, such as price trends over time. Additionally, it includes features like error notification via email and detailed logging for better monitoring.
 
----
+Features
 
-## Prerequisites
+Conversational Interface: Interact with the assistant to ask questions related to product data stored in a SQLite database.
 
-Before you start, ensure you have the following:
+Database Interaction: The assistant can run SQL queries on the database and return the results.
 
-- **Python 3.8+**: Our project is compatible with Python 3.8 and later.
-- **pip**: The Python package installer.
-- **Virtual Environment (Recommended)**: Isolate your project dependencies for a clean setup.
+Data Visualization: Display price trends for products over time.
 
----
+Email Notifications: Notifies admins about new user queries and errors via email.
 
-## Step 1: Clone the Repository
+Logging: Detailed logging of actions and errors, stored both in the console and in log files with rotation.
 
-Clone the project repository from GitHub:
+Streamlit UI: A simple, interactive user interface built using Streamlit.
 
-```sh
-git clone https://github.com/MajidAbdukarimov/masters-ai/tree/main/11
-cd your-project
-```
+Requirements
 
----
+Python 3.12 or below
 
-## Step 2: Create and Activate a Virtual Environment
+OpenAI API Key (for GPT model usage)
 
-It is recommended to use a virtual environment:
+SQLite (for the product database)
 
-```sh
-python -m venv venv
-```
+Streamlit (for the UI)
 
-Activate the virtual environment:
+Requests (for making HTTP requests)
 
-- **On macOS/Linux:**
+Pandas, Matplotlib, Seaborn (for data processing and visualization)
 
-  ```sh
-  source venv/bin/activate
-  ```
+Termcolor (for colored terminal output)
 
-- **On Windows:**
+Tenacity (for retries and error handling)
 
-  ```sh
-  venv\Scripts\activate
-  ```
+Dotenv (for environment variable management)
 
----
+Installation
 
-## Step 3: Install Dependencies
+Clone the repository:
 
-Install the required packages using the provided `requirements.txt`:
+bashCopygit clone https://github.com/your-repo/database-query-assistant.git
 
-```sh
-pip install -r requirements.txt
-```
+cd database-query-assistant
 
----
+Install required dependencies:
 
-## Step 4: Configure Environment Variables
+bashCopypip install -r requirements.txt
 
-Create a `.env` file in the root directory of the project. Populate it with the necessary environment variables:
+Create a .env file in the root directory and add the following environment variables:
 
-```sh
-OPENAI_API_KEY=your_openai_api_key_here
-SENDER_EMAIL=your_sender_email@example.com
-EMAIL_PASSWORD=your_email_password
-DATABASE_URL=your_database_url_or_path
-```
+envCopyOPENAI\_API\_KEY=your\_openai\_api\_key
 
-📌 **Note:** Make sure to add `.env` to your `.gitignore` to protect sensitive data.
+SENDER\_EMAIL=your\_email\_address
 
----
+EMAIL\_PASSWORD=your\_email\_password
 
-## Step 5: Run the Application
+LOG\_FILE=path\_to\_log\_file
 
-Start the application using Streamlit:
+Set up your SQLite database:
 
-```sh
-streamlit run main.py
-```
+Ensure your database (products\_data.db) contains a products table with the following schema:
 
-Your browser should automatically open a new tab with the application interface. If not, follow the URL provided in the terminal output.
+id, product\_code, product\_name, category, color, capacity, price, monthly\_sales, stock\_remaining, segment, discount, country\_of\_origin, product\_index, flag, month
 
----
 
-## Troubleshooting
+Run the application:
 
-- **Virtual Environment Issues:** Ensure that the virtual environment is activated before installing dependencies.
-- **Dependency Errors:** Double-check that all dependencies are correctly installed. Use `pip list` to confirm.
-- **Environment Variables:** Verify that the `.env` file is in the correct location and contains the correct values.
-- **API Key and Credits:** Ensure your OpenAI API key is valid and that your account has sufficient funds for API usage.
+bashCopystreamlit run main.py
+
+
+How It Works
+
+User Interaction
+
+The user enters a query via the Streamlit interface.
+
+The assistant processes the query and checks if it requires interaction with the database.
+
+If the query involves a product code, the assistant will fetch relevant data from the database and visualize it (e.g., a price trend).
+
+The response is displayed to the user, and an email notification is sent to the admin.
+
+Function Execution
+
+The assistant can perform SQL queries on the database via the ask\_database function.
+
+It also supports executing custom functions based on user input.
+
+Error Handling
+
+Errors are logged to the console and stored in log files.
+
+If any error occurs (e.g., invalid queries, database connection issues), an email is sent to the admin to notify them of the issue.
+
+Logging
+
+All actions, including database queries, function calls, and errors, are logged.
+
+Logs are stored both in the console and in a log file (app.log by default). Log rotation is enabled to manage file size.
+
+Example Use Cases
+
+Query a product's price trend:
+
+Query: "What is the price trend for product code ABC123?"
+
+Response: A graph showing the price trend over time for the specified product.
+
+Get product details:
+
+Query: "Tell me about the product with code XYZ789."
+
+Response: Details about the product (e.g., name, category, price, etc.).
+
+Notify about an error:
+
+If an invalid SQL query is submitted, the system will send an email notification to the admin.
+
+File Overview
+
+main.py: Main entry point for running the application. It sets up the Streamlit UI and manages interactions with the database and the GPT model.
+
+conversation.py: Manages the conversation history, adds messages, and saves the conversation to a file.
+
+email\_handler.py: Sends email notifications to the admin for errors or new user queries.
+
+logger.py: Sets up logging for the application, including file-based log rotation.
+
+.env: Stores sensitive configuration information like API keys and email credentials.
+
+Error Handling
+
+The project includes mechanisms to handle errors gracefully:
+
+API request errors: If the OpenAI API request fails, the system logs the error and sends an email notification to the admin.
+
+Database errors: SQL query errors are caught, logged, and an email is sent to notify the admin.
+
+Email notifications: The system sends emails to notify the admin about errors or new user queries.
+
+Contributing
+
+Fork the repository.
+
+Create a new branch for your feature or bug fix.
+
+Make your changes and commit them.
+
+Push to your forked repository.
+
+Open a pull request to the main repository.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Note: Please ensure to replace placeholders like your\_openai\_api\_key and your\_email\_address with actual values in your .env file.
