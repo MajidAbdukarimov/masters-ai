@@ -1,0 +1,50 @@
+2025-02-07 16:56:12,863 - INFO - Function not required, responding to user
+2025-02-07 16:56:24,567 - INFO - Function not required, responding to user
+2025-02-07 16:56:34,542 - INFO - Function generation requested, calling function
+2025-02-07 16:56:34,542 - INFO - Prepared query: SELECT SUM(monthly_sales) AS total_goods_sold FROM products WHERE month = '07-2024';
+2025-02-07 17:01:18,142 - root - INFO - Logging setup complete
+2025-02-07 17:01:30,655 - root - INFO - Logging setup complete
+2025-02-07 17:02:03,293 - root - INFO - Logging setup complete
+2025-02-07 17:02:05,092 - root - INFO - Logging setup complete
+2025-02-07 17:02:28,095 - root - INFO - Logging setup complete
+2025-02-07 17:02:28,171 - root - INFO - Logging setup complete
+2025-02-07 17:03:56,706 - root - INFO - Logging setup complete
+2025-02-07 17:04:00,774 - root - INFO - Logging setup complete
+2025-02-07 17:04:13,172 - root - INFO - Logging setup complete
+2025-02-07 17:04:14,850 - root - INFO - Logging setup complete
+2025-02-07 17:04:14,854 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2025-02-07 17:04:17,531 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-02-07 17:04:24,211 - root - INFO - Logging setup complete
+2025-02-07 17:04:27,195 - root - INFO - Logging setup complete
+2025-02-07 17:04:27,200 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2025-02-07 17:04:32,025 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-02-07 17:04:41,038 - root - INFO - Logging setup complete
+2025-02-07 17:04:43,932 - root - INFO - Logging setup complete
+2025-02-07 17:04:43,937 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2025-02-07 17:04:46,100 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-02-07 17:04:51,790 - root - INFO - Logging setup complete
+2025-02-07 17:04:59,585 - root - INFO - Logging setup complete
+2025-02-07 17:04:59,682 - root - INFO - Logging setup complete
+2025-02-07 17:04:59,687 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2025-02-07 17:05:02,350 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-02-07 17:14:01,339 - root - INFO - Logging setup complete
+2025-02-07 17:14:04,805 - root - INFO - Logging setup complete
+2025-02-07 17:14:19,715 - root - INFO - Logging setup complete
+2025-02-07 17:14:21,186 - root - INFO - Logging setup complete
+2025-02-07 17:14:21,189 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2025-02-07 17:14:26,103 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-02-07 17:14:32,232 - root - INFO - Logging setup complete
+2025-02-07 17:14:33,886 - root - INFO - Logging setup complete
+2025-02-07 17:14:33,891 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2025-02-07 17:14:42,151 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-02-07 17:16:13,073 - root - INFO - Logging setup complete
+2025-02-07 17:16:27,963 - root - INFO - Logging setup complete
+2025-02-07 17:16:44,306 - root - INFO - Logging setup complete
+2025-02-07 17:16:45,985 - root - INFO - Logging setup complete
+2025-02-07 17:16:45,989 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2025-02-07 17:16:53,280 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-02-07 17:17:21,277 - root - INFO - Logging setup complete
+2025-02-07 17:17:23,046 - root - INFO - Logging setup complete
+2025-02-07 17:17:23,051 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2025-02-07 17:17:26,607 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-06 10:07:57,562 - app - INFO - [logger:setup_logging:32] - Logging setup complete
