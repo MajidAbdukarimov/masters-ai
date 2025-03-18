@@ -1,50 +1,139 @@
-2025-02-07 16:56:12,863 - INFO - Function not required, responding to user
-2025-02-07 16:56:24,567 - INFO - Function not required, responding to user
-2025-02-07 16:56:34,542 - INFO - Function generation requested, calling function
-2025-02-07 16:56:34,542 - INFO - Prepared query: SELECT SUM(monthly_sales) AS total_goods_sold FROM products WHERE month = '07-2024';
-2025-02-07 17:01:18,142 - root - INFO - Logging setup complete
-2025-02-07 17:01:30,655 - root - INFO - Logging setup complete
-2025-02-07 17:02:03,293 - root - INFO - Logging setup complete
-2025-02-07 17:02:05,092 - root - INFO - Logging setup complete
-2025-02-07 17:02:28,095 - root - INFO - Logging setup complete
-2025-02-07 17:02:28,171 - root - INFO - Logging setup complete
-2025-02-07 17:03:56,706 - root - INFO - Logging setup complete
-2025-02-07 17:04:00,774 - root - INFO - Logging setup complete
-2025-02-07 17:04:13,172 - root - INFO - Logging setup complete
-2025-02-07 17:04:14,850 - root - INFO - Logging setup complete
-2025-02-07 17:04:14,854 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-2025-02-07 17:04:17,531 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2025-02-07 17:04:24,211 - root - INFO - Logging setup complete
-2025-02-07 17:04:27,195 - root - INFO - Logging setup complete
-2025-02-07 17:04:27,200 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-2025-02-07 17:04:32,025 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2025-02-07 17:04:41,038 - root - INFO - Logging setup complete
-2025-02-07 17:04:43,932 - root - INFO - Logging setup complete
-2025-02-07 17:04:43,937 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-2025-02-07 17:04:46,100 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2025-02-07 17:04:51,790 - root - INFO - Logging setup complete
-2025-02-07 17:04:59,585 - root - INFO - Logging setup complete
-2025-02-07 17:04:59,682 - root - INFO - Logging setup complete
-2025-02-07 17:04:59,687 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-2025-02-07 17:05:02,350 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2025-02-07 17:14:01,339 - root - INFO - Logging setup complete
-2025-02-07 17:14:04,805 - root - INFO - Logging setup complete
-2025-02-07 17:14:19,715 - root - INFO - Logging setup complete
-2025-02-07 17:14:21,186 - root - INFO - Logging setup complete
-2025-02-07 17:14:21,189 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-2025-02-07 17:14:26,103 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2025-02-07 17:14:32,232 - root - INFO - Logging setup complete
-2025-02-07 17:14:33,886 - root - INFO - Logging setup complete
-2025-02-07 17:14:33,891 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-2025-02-07 17:14:42,151 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2025-02-07 17:16:13,073 - root - INFO - Logging setup complete
-2025-02-07 17:16:27,963 - root - INFO - Logging setup complete
-2025-02-07 17:16:44,306 - root - INFO - Logging setup complete
-2025-02-07 17:16:45,985 - root - INFO - Logging setup complete
-2025-02-07 17:16:45,989 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-2025-02-07 17:16:53,280 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2025-02-07 17:17:21,277 - root - INFO - Logging setup complete
-2025-02-07 17:17:23,046 - root - INFO - Logging setup complete
-2025-02-07 17:17:23,051 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
-2025-02-07 17:17:26,607 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2025-03-06 10:07:57,562 - app - INFO - [logger:setup_logging:32] - Logging setup complete
+2025-03-18 10:40:32,909 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 10:41:34,604 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 10:44:28,703 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 10:44:44,594 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 11:10:43,880 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 11:10:48,265 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 11:16:43,266 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 11:16:48,693 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 11:35:55,983 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 11:36:00,026 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:21:26,921 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:21:31,547 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:35:13,457 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:35:19,342 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:35:22,495 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:39:36,897 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:39:45,484 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:40:29,242 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:41:08,858 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:41:25,840 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:43:04,670 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:43:08,105 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:50:42,208 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:50:45,893 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:51:34,634 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:51:37,835 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:52:13,642 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:52:17,039 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:59:41,157 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 12:59:44,382 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 13:07:06,353 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 13:07:09,438 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 13:48:00,181 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:04:42,944 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:04:55,347 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:13:19,048 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:13:22,306 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:26:52,727 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:26:58,849 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:31:49,370 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:31:58,498 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:37:41,783 | INFO     | [logger:setup_logging:108] | Logging system initialized with elegant formatting
+2025-03-18 15:42:19,024 - INFO - Logging system initialized with elegant formatting
+2025-03-18 15:42:19,087 - INFO - Starting application
+2025-03-18 15:42:19,286 - INFO - Database connection established
+2025-03-18 15:42:20,608 - INFO - Starting application
+2025-03-18 15:42:20,609 - INFO - Database connection established
+2025-03-18 15:42:21,752 - INFO - Starting application
+2025-03-18 15:42:21,753 - INFO - Database connection established
+2025-03-18 15:42:21,765 - INFO - New query received: What are the top 5 best-selling products?
+2025-03-18 15:42:21,766 - INFO - Sending email with subject: 🔍 New Query Received
+2025-03-18 15:42:32,838 - ERROR - Error sending email: [Errno 11001] getaddrinfo failed
+2025-03-18 15:42:32,838 - INFO - Getting response from assistant
+2025-03-18 15:42:32,838 - INFO - Calling chat completion with function execution
+2025-03-18 15:42:32,838 - INFO - Sending request to OpenAI API
+2025-03-18 15:42:34,899 - INFO - Function call requested, executing...
+2025-03-18 15:42:34,900 - INFO - Executing SQL query from function call: SELECT product_name, monthly_sales FROM products ORDER BY monthly_sales DESC LIMIT 5;
+2025-03-18 15:42:34,900 - INFO - Executing SQL query: SELECT product_name, monthly_sales FROM products ORDER BY monthly_sales DESC LIMIT 5;
+2025-03-18 15:42:34,901 - INFO - Query executed successfully with 5 results
+2025-03-18 15:42:34,901 - INFO - Sending follow-up request with function results
+2025-03-18 15:42:34,901 - INFO - Sending request to OpenAI API
+2025-03-18 15:42:37,193 - INFO - Response added to conversation
+2025-03-18 15:42:37,222 - INFO - Starting application
+2025-03-18 15:42:37,223 - INFO - Database connection established
+2025-03-18 15:58:11,777 - INFO - Logging system initialized with elegant formatting
+2025-03-18 15:58:11,837 - INFO - Starting application
+2025-03-18 15:58:12,033 - INFO - Database connection established
+2025-03-18 15:58:14,118 - INFO - Starting application
+2025-03-18 15:58:14,119 - INFO - Database connection established
+2025-03-18 15:58:15,734 - INFO - Starting application
+2025-03-18 15:58:15,736 - INFO - Database connection established
+2025-03-18 15:58:15,758 - INFO - New query received: What are the top 5 best-selling products?
+2025-03-18 15:58:15,759 - INFO - Sending email with subject: 🔍 New Query Received
+2025-03-18 15:58:17,325 - INFO - Email sent successfully
+2025-03-18 15:58:17,325 - INFO - Getting response from assistant
+2025-03-18 15:58:17,326 - INFO - Calling chat completion with function execution
+2025-03-18 15:58:17,326 - INFO - Sending request to OpenAI API
+2025-03-18 15:58:19,663 - INFO - Function call requested, executing...
+2025-03-18 15:58:19,665 - INFO - Executing SQL query from function call: SELECT product_name, monthly_sales FROM products ORDER BY monthly_sales DESC LIMIT 5;
+2025-03-18 15:58:19,666 - INFO - Executing SQL query: SELECT product_name, monthly_sales FROM products ORDER BY monthly_sales DESC LIMIT 5;
+2025-03-18 15:58:19,667 - INFO - Query executed successfully with 5 results
+2025-03-18 15:58:19,667 - INFO - Sending follow-up request with function results
+2025-03-18 15:58:19,668 - INFO - Sending request to OpenAI API
+2025-03-18 15:58:22,964 - INFO - Response added to conversation
+2025-03-18 15:58:23,000 - INFO - Starting application
+2025-03-18 15:58:23,003 - INFO - Database connection established
+2025-03-18 16:03:40,664 - INFO - Logging system initialized with elegant formatting
+2025-03-18 16:03:40,726 - INFO - Starting application
+2025-03-18 16:03:40,923 - INFO - Database connection established
+2025-03-18 16:03:45,503 - INFO - Starting application
+2025-03-18 16:03:45,505 - INFO - Database connection established
+2025-03-18 16:03:53,357 - INFO - Starting application
+2025-03-18 16:03:53,360 - INFO - Database connection established
+2025-03-18 16:03:53,462 - INFO - Starting application
+2025-03-18 16:03:53,463 - INFO - Database connection established
+2025-03-18 16:03:53,484 - INFO - New query received: Show me products with prices above $50
+2025-03-18 16:03:53,484 - INFO - Sending email with subject: 🔍 New Query Received
+2025-03-18 16:03:56,474 - INFO - Email sent successfully
+2025-03-18 16:03:56,474 - INFO - Getting response from assistant
+2025-03-18 16:03:56,475 - INFO - Calling chat completion with function execution
+2025-03-18 16:03:56,476 - INFO - Sending request to OpenAI API
+2025-03-18 16:03:59,472 - INFO - Function call requested, executing...
+2025-03-18 16:03:59,473 - INFO - Executing SQL query from function call: SELECT * FROM products WHERE price > 50
+2025-03-18 16:03:59,474 - INFO - Executing SQL query: SELECT * FROM products WHERE price > 50
+2025-03-18 16:03:59,475 - INFO - Query executed successfully with 360 results
+2025-03-18 16:03:59,476 - INFO - Sending follow-up request with function results
+2025-03-18 16:03:59,476 - INFO - Sending request to OpenAI API
+2025-03-18 16:04:10,943 - INFO - Response added to conversation
+2025-03-18 16:04:10,943 - INFO - Sending assistant response email notification
+2025-03-18 16:04:10,944 - INFO - Sending email with subject: 🤖 Assistant Response
+2025-03-18 16:04:12,470 - INFO - Email sent successfully
+2025-03-18 16:04:12,470 - INFO - Email with assistant response sent successfully
+2025-03-18 16:04:12,498 - INFO - Starting application
+2025-03-18 16:04:12,502 - INFO - Database connection established
+2025-03-18 16:04:44,643 - INFO - Starting application
+2025-03-18 16:04:44,644 - INFO - Database connection established
+2025-03-18 16:04:50,621 - INFO - Starting application
+2025-03-18 16:04:50,623 - INFO - Database connection established
+2025-03-18 16:04:50,735 - INFO - Starting application
+2025-03-18 16:04:50,737 - INFO - Database connection established
+2025-03-18 16:04:50,750 - INFO - New query received: What are the top 3 best-selling products?
+2025-03-18 16:04:50,751 - INFO - Sending email with subject: 🔍 New Query Received
+2025-03-18 16:04:52,270 - INFO - Email sent successfully
+2025-03-18 16:04:52,270 - INFO - Getting response from assistant
+2025-03-18 16:04:52,271 - INFO - Calling chat completion with function execution
+2025-03-18 16:04:52,272 - INFO - Sending request to OpenAI API
+2025-03-18 16:04:54,321 - INFO - Function call requested, executing...
+2025-03-18 16:04:54,322 - INFO - Executing SQL query from function call: SELECT product_name, monthly_sales FROM products ORDER BY monthly_sales DESC LIMIT 3;
+2025-03-18 16:04:54,323 - INFO - Executing SQL query: SELECT product_name, monthly_sales FROM products ORDER BY monthly_sales DESC LIMIT 3;
+2025-03-18 16:04:54,324 - INFO - Query executed successfully with 3 results
+2025-03-18 16:04:54,324 - INFO - Sending follow-up request with function results
+2025-03-18 16:04:54,324 - INFO - Sending request to OpenAI API
+2025-03-18 16:04:56,144 - INFO - Response added to conversation
+2025-03-18 16:04:56,144 - INFO - Sending assistant response email notification
+2025-03-18 16:04:56,145 - INFO - Sending email with subject: 🤖 Assistant Response
+2025-03-18 16:04:57,833 - INFO - Email sent successfully
+2025-03-18 16:04:57,834 - INFO - Email with assistant response sent successfully
+2025-03-18 16:04:57,878 - INFO - Starting application
+2025-03-18 16:04:57,880 - INFO - Database connection established
